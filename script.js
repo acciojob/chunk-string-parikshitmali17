@@ -8,7 +8,7 @@ for(let i=0; i<=a; i++){
 			s+=str[i]
 		}else{
 			array.push(s)
-			a=2*size
+			a=size+size
 			s=""
 			
 		}
@@ -18,7 +18,7 @@ for(let i=0; i<=a; i++){
 	
 }
 
-//Do not change the code below
+// //Do not change the code below
 const str = prompt("Enter String.");
 const size = prompt("Enter Chunk Size.");
 alert(stringChop(str, size));
